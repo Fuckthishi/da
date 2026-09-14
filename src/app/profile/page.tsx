@@ -1,0 +1,3 @@
+export default function Profile(){
+ return <main className="min-h-screen bg-black text-white p-8"><h1 className="text-4xl font-bold">Fitness Profile</h1><div className="mt-8 space-y-4"><input className="bg-zinc-900 p-3 rounded w-full" placeholder="Name"/><input className="bg-zinc-900 p-3 rounded w-full" placeholder="Weight"/><input className="bg-zinc-900 p-3 rounded w-full" placeholder="Height"/><button className="bg-red-600 px-6 py-3 rounded">Save Profile</button></div></main>
+}
